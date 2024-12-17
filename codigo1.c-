@@ -1,0 +1,9 @@
+/* Isso é um comentário */
+
+int main(void) {
+    int a = 5;
+    if (a > 0) {
+        return a;
+    }
+    myFunc(1, 2); 
+}

@@ -1,0 +1,4 @@
+flex lexer.l
+bison -d parser.y
+gcc lex.yy.c parser.tab.c ast_node.c main.c -o analisador -ll
+./analisador codigo1.c-
